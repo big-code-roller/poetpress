@@ -1,0 +1,114 @@
+footer#colophon.site-footer(role='contentinfo')
+    .site-contact
+        .wrapper
+          .pull-left
+            p.large
+              | Wanna talk?
+              span.brand
+                | Call us at
+                a.brand(href='tel:415-724-7935') (415) 724-7935
+            p
+              | or email us at
+              a(href='mailto:hello@space-rocket.com?Subject=Hello%20')
+                | hello@space-rocket.com
+          .pull-right
+            //
+               Button to trigger modal 
+            a.contact-us(href='#myModal', role='button', data-toggle='modal')
+            //
+               Modal 
+            #myModal.modal.hide.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='true')
+              .modal-header
+                button.close(type='button', data-dismiss='modal', aria-hidden='true') ×
+                h3#myModalLabel Lets make something awesome together
+              .modal-body
+                form.form-horizontal
+                  .control-group
+                    label.control-label(for='inputEmail') Name
+                    .controls
+                      input#inputName(type='text')
+                  .control-group
+                    label.control-label(for='inputEmail') Email
+                    .controls
+                      input#inputEmail(type='text')
+                  legend I am interested in...
+                  .control-group
+                    label.control-label.radio
+                      | Just saying hi
+                      input#optionsRadios1(type='radio', name='optionsRadios', value='option1', checked='checked')
+                    .controls
+                  .control-group
+                    label.control-label.radio
+                      | Doing a project with Space-Rocket
+                      input#optionsRadios1(type='radio', name='optionsRadios', value='option1', checked='checked')
+                    .controls
+                  .control-group
+                    label.control-label.radio
+                      | Working for Space-Rocket
+                      input#optionsRadios3(type='radio', name='optionsRadios', value='option3', checked='checked')
+                    .controls
+                  .control-group
+                    .controls
+                      button.btn(type='submit') Submit
+              .modal-footer
+                button.btn(data-dismiss='modal', aria-hidden='true') Close
+            //
+               End Modal 
+      //
+         .site-contact 
+      .site-info
+        #footer-top
+        .wrapper
+          .pull-left
+            a.logo(href='#', rel='designer')
+          .pull-right
+            ul.social
+              li.follow Follow us:
+              a(href='http://www.space-rocket.com/feed/')
+                li.rss
+              a(href='https://twitter.com/bigbassroller')
+                li.twitter
+              a(href='https://www.facebook.com/pages/Space-Rocket/336962632990741')
+                li.fb
+        .creds.wrapper
+          a(href='nodejs.org/', title='', rel='generator') Powered by Node.js
+          a(href='http://twitter.github.io/bootstrap/', title='Sleek, intuitive, and powerful front-end framework for faster and easier web development.', rel='props') and Twitter Bootstrap
+          a(href='#', title='awesome web design', rel='designer') Designed and Developed by Space-Rocket
+      //
+         .site-info 
+    //
+       #colophon 
+
+script(src='javascripts/jquery.js')
+script(src='javascripts/bootstrap-transition.js')
+script(src='javascripts/bootstrap-alert.js')
+script(src='javascripts/bootstrap-modal.js')
+script(src='javascripts/bootstrap-dropdown.js')
+script(src='javascripts/bootstrap-scrollspy.js')
+script(src='javascripts/bootstrap-tab.js')
+script(src='javascripts/bootstrap-tooltip.js')
+script(src='javascripts/bootstrap-popover.js')
+script(src='javascripts/bootstrap-button.js')
+script(src='javascripts/bootstrap-collapse.js')
+script(src='javascripts/bootstrap-carousel.js')
+script(src='javascripts/bootstrap-typeahead.js')
+script(src='javascripts/bootstrap-affix.js')
+script(src='javascripts/holder.js')
+script(src='javascripts/google-code-prettify/prettify.js')
+script(src='javascripts/application.js')
+script(src='javascripts/holder/holder.js')
+script
+    if (location.pathname == "/") {
+      $("#home").addClass("current_page_item");
+      } else if (location.pathname == "/home") {
+      $("#home").addClass("current_page_item");
+      } else if (location.pathname == "/team") {
+      $("#team").addClass("current_page_item");
+      } else if (location.pathname == "/portfolio") {
+      $("#portfolio").addClass("current_page_item");
+      } else if (location.pathname == "/services") {
+      $("#services").addClass("current_page_item");
+      } else if (location.pathname == "/blog") {
+      $("#blog").addClass("current_page_item");
+      }
+

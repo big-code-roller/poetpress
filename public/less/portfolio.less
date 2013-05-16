@@ -1,0 +1,249 @@
+
+/* Portfolio Page
+------------------------------------------------------------ */
+.portfolio .entry-content {
+    
+}
+
+.view-first img {
+   -webkit-transition: all 0.2s linear;
+   -moz-transition: all 0.2s linear;
+   -o-transition: all 0.2s linear;
+   -ms-transition: all 0.2s linear;
+   transition: all 0.2s linear;
+}
+.view-first .mask {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   background-color: #28122e;
+   -webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+}
+.view-first h2 {
+   -webkit-transform: translateY(-100px);
+   -moz-transform: translateY(-100px);
+   -o-transform: translateY(-100px);
+   -ms-transform: translateY(-100px);
+   transform: translateY(-100px);
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+.view-first p {
+   -webkit-transform: translateY(100px);
+   -moz-transform: translateY(100px);
+   -o-transform: translateY(100px);
+   -ms-transform: translateY(100px);
+   transform: translateY(100px);
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: all 0.2s linear;
+   -moz-transition: all 0.2s linear;
+   -o-transition: all 0.2s linear;
+   -ms-transition: all 0.2s linear;
+   transition: all 0.2s linear;
+}
+.view-first:hover img, .view-first:active img {
+   -webkit-transform: scale(1.1,1.1);
+   -moz-transform: scale(1.1,1.1);
+   -o-transform: scale(1.1,1.1);
+   -ms-transform: scale(1.1,1.1);
+   transform: scale(1.1,1.1);
+}
+.view-first a.info {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+.view-first:hover .mask, .view-first:active .mask {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+}
+.view-first:hover h2, .view-first:active h2,
+.view-first:hover p, .view-first:active p,
+.view-first:hover a.info, .view-first:active a.info {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+   -webkit-transform: translateY(0px);
+   -moz-transform: translateY(0px);
+   -o-transform: translateY(0px);
+   -ms-transform: translateY(0px);
+   transform: translateY(0px);
+}
+.view-first:hover p, .view-first:active a.info {
+   -webkit-transition-delay: 0.1s;
+   -moz-transition-delay: 0.1s;
+   -o-transition-delay: 0.1s;
+   -ms-transition-delay: 0.1s;
+   transition-delay: 0.1s;
+}
+.view-first:hover a.info, .view-first:active a.info {
+   -webkit-transition-delay: 0.2s;
+   -moz-transition-delay: 0.2s;
+   -o-transition-delay: 0.2s;
+   -ms-transition-delay: 0.2s;
+   transition-delay: 0.2s;
+}
+
+.view {
+    border-bottom: thin solid #FFFFFF;
+    border-right: thin solid #FFFFFF;
+    cursor: default;
+    float: left;
+    height: auto;
+    margin: 0;
+    min-width: 305px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 32%;
+}
+.portfolio-item-wrapper {
+    float: left;
+    height: auto;
+    position: relative;
+    width: auto;
+}
+.portfolio {
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+.portfolio-wrapper {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+.view .mask, .view .content {
+    height: 160px;
+    left: 0;
+    overflow: hidden;
+    padding: 20px 0 0 20px;
+    position: absolute;
+    top: 0;
+    width: 285px;
+}
+.view img {
+   display: block;
+   position: relative;
+}
+.view h2 {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    text-transform: lowercase;
+}
+.view p {
+   font-size: 14px;
+   position: relative;
+   color: #5b5b5b;
+   padding: 0;
+   text-align: left;
+}
+
+.entry-content .view p {
+    margin: 0;
+    padding: 0;
+}
+
+.mask p a {
+    color: #5B5B5B;
+    text-decoration: none;
+}
+
+.mask a:hover {
+    color: #D82488;
+    text-decoration: none;
+}
+
+.view a.info {
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 20px 0 0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.view a.info:hover {
+   -webkit-box-shadow: 0 0 5px #000;
+   -moz-box-shadow: 0 0 5px #000;
+   box-shadow: 0 0 5px #000;
+}
+
+/* Pure CSS3 jQuery-Like fadeIn
+---------------------------------------------------- */
+.fadeIn {
+    
+    /* CSS needed for animation
+    ---------------------------------------------------- */
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    -o-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    -o-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+}
+
+/* Animation Times - Time for image to fade in
+---------------------------------------------------- */
+.fadeIn-3s {
+    -webkit-animation-duration:3s;
+    -moz-animation-duration:3s;
+    -o-animation-duration:3s;
+    animation-duration:3s;
+}
+
+.fadeIn-5s {
+    -webkit-animation-duration:5s;
+    -moz-animation-duration:5s;
+    -o-animation-duration:5s;
+    animation-duration:5s;
+}
+
+/* Animation Delay - Time for image to be delayed
+---------------------------------------------------- */
+.fadeIn-Delay-3s {
+    -webkit-animation-delay:3s;
+    -moz-animation-delay:3s;
+    -o-animation-delay:3s;
+    animation-delay:3s;
+}
+
+.fadeIn-Delay-5s {
+    -webkit-animation-delay:5s;
+    -moz-animation-delay:5s;
+    -o-animation-delay:5s;
+    animation-delay:5s;
+}
+
+/* Key Frames
+---------------------------------------------------- */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-o-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+

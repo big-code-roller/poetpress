@@ -1,0 +1,14 @@
+artcle#post.post
+  .img-wrap
+      img(src='holder.js/325x225')
+    header.entry-header
+      h1.blog-title
+        a(href=post.url)
+          = post.title
+      .entry-meta Posted by Michael Chavez #{post.date.getMonth()+1}.#{post.date.getDate()}.#{post.date.getFullYear()}
+    .entry-content
+      != post.preview
+.blog-dotted-line
+.blog-dotted-line
+
+  

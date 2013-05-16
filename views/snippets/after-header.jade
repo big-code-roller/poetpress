@@ -1,0 +1,14 @@
+include header
+              block content
+                ul.nav.nav-list
+                  li.nav-header categories
+                  - each cat in categoryList
+                    li
+                      a(href=categoryUrl(cat)) #{cat}
+                  li.nav-header tags
+                  - each tag in tagList
+                    li
+                      a(href=tagUrl(tag)) #{tag}
+              #secondary            
+          #push
+          footer

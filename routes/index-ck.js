@@ -1,0 +1,3 @@
+/*
+ * GET home page.
+ */exports.index=function(e,t){t.render("index",{title:"Home"})};exports.home=function(e,t){t.render("home",{title:"Home"})};exports.team=function(e,t){t.render("team",{title:"Team"})};exports.portfolio=function(e,t){t.render("portfolio",{title:"Portfolio"})};exports.services=function(e,t){t.render("services",{title:"Services"})};exports.blog=function(e,t){t.render("blog",{title:"Blog"})};

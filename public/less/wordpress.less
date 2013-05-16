@@ -1,0 +1,596 @@
+
+// Header Styles
+.site-header {
+    background: url("../images/header_bg.jpg") repeat scroll 0 0 transparent;
+    height: 150px;
+    position: relative;
+}
+.header-image {
+    position: absolute;
+    z-index: 0;
+}
+
+// Logo Styles
+#logo {
+  width: 300px;
+  .pull-left;
+}
+#logo > a {
+    position: relative;
+}
+#logo.visible-phone {
+    width: 200px;
+}
+
+// Nav Styles
+nav {
+    .span (7);
+    .pull-right;
+    z-index: 1;
+}
+.menu-slide-nav-container {
+    bottom: 20px;
+    margin: 0 0 15px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+
+
+
+// Page Styles
+#page {
+    background: url("../images/body_bg.jpg") repeat scroll 0 0 transparent;
+}
+img.mission {
+    height: auto;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: -27px;
+    width: auto;
+}
+.site-main {
+    .container-fixed();
+    margin-bottom: 70px;
+    position: relative;
+    padding: 0 20px;
+    width: 960px;
+}
+.wrapper, .front.widget-area, .site-content  {
+   width: 960px;
+   .container-fixed();
+   position: relative;
+}
+.front.widget-area, .site-content  {
+   overflow: hidden;
+}
+h1.entry-title {
+    margin: 103px auto 70px;
+}
+.entry-title {
+    text-align: center;
+}
+.entry-content p {
+    font-style: italic;
+    margin-bottom: 70px;
+}
+li a  {
+color: @gray;
+}
+input, textarea, .uneditable-input {
+    width: auto;
+}
+// Footer Styles
+.site-contact {
+    background: url("../images/footer-top.png") repeat-x scroll 0 29px, url("../images/body_bg_2.jpg") repeat-x scroll 0 34px;
+    padding: 80px 20px 0;
+    position: relative;
+}
+.site-contact .pull-left {
+    color: @white;
+}
+.site-contact .pull-left a {
+    text-decoration: underline;
+}
+.site-contact .pull-left a.brand:hover {
+    color: darken(@pink, 15%);;
+}
+.contact-us {
+    background: url("../images/btn.png") repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 82px;
+    width: 170px;
+}
+#footer-top {
+    background: url("../images/footer-top2.png") repeat-x scroll 0 0 transparent;
+    height: 5px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -5px;
+    width: 100%;
+}
+.site-info {
+    background: none repeat scroll 0 0 @black;
+    padding: 30px 30px 0;
+    position: relative;
+}
+.site-info .wrapper {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+footer .logo {
+    background-image: url("../images/logo_2.png");
+    background-repeat: no-repeat;
+    float: left;
+    height: 50px;
+    position: relative;
+    width: 150px;
+}
+.social li {
+    display: inline;
+}
+li.follow {
+    line-height: 4;
+    margin: 0 8px 0 0;
+}
+.fb, .twitter, .rss, .yelp {
+    background-repeat: no-repeat;
+    float: right;
+    height: 31px;
+    position: relative;
+    width: 32px;
+}
+.creds.wrapper {
+    text-align: right;
+    color: @gray;
+}
+.creds a {
+    color: @gray;
+}
+// Front-Page Styles
+.front-page .entry-content {
+    margin: 0 auto 70px;
+}
+.front aside {
+    float: left;
+    width: 20%;
+}
+.front .thumbnail {
+    text-align: center;
+}
+.widget.thumbnails h3, .widget.thumbnails p {
+    width: 140px;
+}
+.front.widget-area:before {
+    border: 1px solid  @pink;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 120px;
+    width: 93%;
+}
+// Sidebar Page Styles
+.sidebar.site-content {
+    float: left;
+    width: 70%;
+}
+.sidebar.widget-area {
+    float: right;
+    width: 26.0417%;
+}
+// Team Page Styles
+.team h4 {
+    border-bottom: 1px solid #D82488;
+    color: #D82488;
+    overflow: hidden;
+    padding: 68px 16px 14px;
+    position: relative;
+    top: 0;
+    width: auto;
+    z-index: 1;
+}
+.team h1.entry-title {
+    margin: 103px auto 12px;
+}
+.team-profile p {
+    left: 14px;
+    margin: 0 0 30px;
+    position: relative;
+}
+team .thumbnail-img {
+    height: 114px;
+    margin: 0 auto;
+    width: 158px;
+}
+.team .thumbnail-img {
+    float: left;
+    height: 200px;
+    margin: 0;
+    width: 155px;
+}
+.team ul {
+    left: 142px;
+    position: relative;
+    top: -21px;
+    width: 200px;
+}
+.team-profile ul a li p {
+    float: left;
+    left: 14px;
+    margin: -18px 0 0 12px;
+}
+// Services Style
+.services {
+    height: auto;
+    width: auto;
+}
+.services h1.entry-title {
+    margin: 103px auto 12px;
+}
+.design, .develop, .maintain {
+    height: 232px;
+    margin: 0 auto;
+    position: relative;
+    width: 600px;
+}
+.design .services-img, .develop .services-img, .maintain .services-img {
+    height: 182px;
+    position: absolute;
+    width: 600px;
+}
+.design .services-img {
+    background: url("../images/design.png") repeat-y scroll 0 0 transparent;
+}
+.services-content {
+    float: left;
+    margin: 15px 0 0 200px;
+}
+.services h4 {
+    color: #D82488;
+    margin: 0 0 14px 24px;
+    top: 0;
+    width: auto;
+    z-index: 1;
+}
+.services-first {
+    float: left;
+    margin: 0;
+    width: 185px;
+}
+.services ul li {
+    background: url("../images/tick.png") no-repeat scroll 0 12px transparent;
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    padding: 5px 0 5px 20px;
+    text-shadow: 1px 1px #FFFFFF;
+    word-wrap: break-word;
+}
+.services ul li {
+    font-style: italic;
+    padding-bottom: 0;
+}
+.services-second {
+    float: right;
+    width: 185px;
+}
+.develop .services-img {
+    background: url("../images/develop.png") repeat-y scroll 0 0 transparent;
+}
+.maintain .services-img {
+    background: url("../images/maintain.png") repeat-y scroll 0 0 transparent;
+}
+// Blog Page Styles
+.blog .img-wrap img {
+    float: left;
+    margin-right: 40px;
+}
+.blog-title {
+    text-align: left;
+}
+.blog-dotted-line {
+    border-bottom: 1px dotted;
+    height: 1px;
+    position: relative;
+    width: auto;
+}
+.sidebar .widget-title {
+    text-align: left;
+}
+.sidebar aside ul {
+    margin-left: 0;
+}
+
+    /* Large desktop */
+    @media (min-width: 1200px) { 
+// body {
+//     background: @pink;
+// }
+    }
+     
+    /* Portrait tablet to landscape and desktop */
+    @media (min-width: 768px) and (max-width: 979px) { 
+// body {
+//     background: @red;
+// }
+.wrapper, .site-main, .content-area, .entry-content, .front.widget-area, .site-content {
+    width: 748px;
+}
+#logo {
+    float: left;
+    position: relative;
+    width: 235px;
+}
+.site-header {
+    height: 138px;
+}
+.front.widget-area:before {
+    display: none;
+}
+.front aside {
+    float: none;
+    margin: 0 auto;
+    width: 80%;
+}
+.thumbnail-img-title {
+    float: left;
+    width: 158px;
+}
+.widget .thumbnail p {
+    text-align: left;
+    width: auto;
+}
+.hero-unit {
+    width: 700px;
+}
+.carousel-control.right {
+    right: 0px;
+}
+.carousel-control.left {
+    left: 0px;
+}
+.wrapper, .site-main, .content-area, .entry-content, .front.widget-area, .site-content {
+    width: auto;
+}
+.site-header {
+    height: 150px;
+}
+#logo {
+    float: none;
+    margin: 0 auto;
+    position: relative;
+    width: 235px;
+}
+#slide-nav-one {
+    bottom: -19px;
+    left: 0;
+    right: 0;
+    width: 500px;
+}
+.navbar-inner {
+    min-height: 111px;
+}
+/* Blog Portrait tablet to landscape and desktop */
+.post .img-wrap {
+    margin: 0 auto;
+    width: 325px;
+}
+.blog .img-wrap img {
+    float: none;
+    margin: 0;
+}
+     }
+     
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 767px) { 
+// body {
+//     background: @purple;
+// }
+.wrapper, .site-main, .content-area, .entry-content, .front.widget-area, .site-content {
+    width: auto;
+}
+.navbar-inner {
+    min-height: 111px;
+}
+.site-contact .wrapper {
+    width: auto;
+    position: relative;
+}
+// Front Page Landscape phone to portrait tablet
+.hero-unit {
+    width: auto;
+}
+.carousel-control.right {
+    right: -30px!important;
+}
+.carousel-control.left {
+    left: -30px!important;
+}
+.carousel-inner {
+    width: auto;
+}
+.carousel {
+    width: 80%;
+}
+.carousel-inner {
+    width: 97%;
+}
+#carousel-frame {
+    margin: -10px auto;
+}
+.carousel-control.right {
+    right: 0px;
+}
+.carousel-control.left {
+    left: 0px;
+}
+.front.widget-area:before {
+    display: none;
+}
+.front aside {
+    float: none;
+    margin: 0 auto 30px;
+    width: 100%;
+}
+.front.widget-area {
+    padding: 20px;
+}
+.thumbnail-img {
+    position: relative;
+}
+.widget.thumbnails h3, .widget.thumbnails p {
+    width: auto;
+}
+// Services Landscape phone to portrait tablet
+.design, .develop, .maintain {
+    height: auto;
+    width: auto;
+}
+.design .services-img, .develop .services-img, .maintain .services-img {
+    margin: 0 auto;
+    position: relative;
+    width: 182px;
+}
+.services h4 {
+    margin: 14px 0;
+    text-align: center;
+}
+.services-content {
+    float: none;
+    height: 180px;
+    margin: 0 auto;
+    width: 430px;
+}
+.post .img-wrap {
+    margin: 0 auto;
+    width: 325px;
+}
+.blog .img-wrap img {
+    float: none;
+    margin: 0;
+}
+.sidebar.site-content {
+    float: none;
+    width: auto;
+}
+.sidebar.widget-area {
+    width: ;
+}
+
+
+
+
+     }
+     
+    /* Landscape phones and down */
+    @media (max-width: 480px) { 
+// body {
+//     background: @blue;
+// }
+.header-wrapper, .header-image {            
+    width: 100%;
+}
+ul, ol {
+    margin: 0;
+}
+#logo {
+    width: 82%;
+    float: none;
+}
+.hero-unit {
+    width: auto;
+}
+.carousel-control.right {
+    right: -30px;
+}
+.carousel-control.left {
+    left: -30px;
+}
+#carousel-frame {
+    margin: -7px auto;
+}
+.front.widget-area:before {
+    display: none;
+}
+.front aside {
+    float: none;
+    margin: 0 auto 30px;
+    width: 100%;
+}
+.front.widget-area {
+    padding: 20px;
+}
+.widget.thumbnails h3, .widget.thumbnails p {
+    width: auto;
+}
+.site-contact .wrapper {
+    width: auto;
+    position: relative;
+}
+.social li {
+    display: block;
+}
+.site-contact .pull-left {
+    color: #FFFFFF;
+    float: none;
+    left: 0;
+    margin: 0 auto 20px;
+    right: 0;
+    width: 230px;
+}
+.site-contact .pull-right {
+    float: none;
+    margin: 0 auto;
+    width: 170px;
+}
+.site-info .pull-left {
+    float: none;
+    margin: 0 auto;
+    width: 150px;
+}
+.site-info .pull-right {
+    float: none;
+    margin: 0 auto;
+    width: 190px;
+}
+.social li {
+    display: inline;
+}
+.creds.wrapper {
+    text-align: center;
+}
+.team .thumbnail-img {
+    float: none;
+    margin: 0 auto;
+}
+.team h4 {
+    padding: 5px 16px 14px;
+    text-align: center;
+}
+.team ul {
+    left: 0;
+    margin: 0 0 10px 16px;
+}
+.services-content {
+    width: auto;
+}
+.services-first, .services-second {
+    float: none;
+    margin: 0 auto;
+    width: 185px;
+}
+.services-content {
+    height: auto;
+    margin-bottom: 70px;
+}
+.sidebar.widget-area, .sidebar.site-content, .post .img-wrap {
+    float: none;
+    width: auto;
+    margin: 0 auto;
+}
+    }
+

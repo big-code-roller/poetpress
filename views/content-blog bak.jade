@@ -1,0 +1,10 @@
+header.entry-header
+    h1.entry-title Latest News From Space-Rocket
+#content.sidebar.blog.site-content(role='main')
+
+- var posts = getPosts(0,5)
+  - var page  = 1
+  - each post in posts
+    include includes/postSnippet
+
+  include includes/pagination
